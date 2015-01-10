@@ -1,0 +1,348 @@
+#menuholder
+{
+	height: 100%;
+	width: 200px;
+	background-color: #318f97 ;
+	position: absolute;
+	-webkit-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	font-family: "Prototype";
+	z-index: 1;
+	text-transform:uppercase;
+}
+#menuholder *
+{
+	font-size: 15px;
+}
+.menuholderhide
+{
+	left:-400px;
+}
+.menuholdershow
+{
+	left: 0%;
+}
+#top
+{
+	position: relative;
+	height: 20%;
+	width: 96%;
+	background: url("/images/dark_mosaic.png");
+}
+#menulist
+{
+	position: relative;
+	left: -7px;
+	height: 80%;
+	width: 100%;
+	background: url("/images/dark_mosaic.png");
+}
+.menuitem
+{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	/*background-color: #000000;*/
+	-webkit-transition:all 0s;
+	border-right: 7px solid #318f97;
+	-moz-transition:all 0s;
+	color: grey;
+	margin-top: 1px;
+}
+.menuitem:hover
+{
+	/*-webkit-transition:all .2s;
+	background-color:  #318f97;*/
+	color: #ffffff;
+}
+.menuitem:active
+	{
+	background-color:  #318f97;
+}
+.submenuholder
+{
+	opacity: 0;
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	background:url("/images/dark_mosaic.png");
+	-webkit-transition:all .75s;
+	-webkit-transition-delay: .1s;
+	-moz-transition:all .75s;
+	-moz-transition-delay: .1s;
+	left:103.5%;
+	top:-2px;
+	padding-top: 2px;
+	z-index:2;
+	overflow: hidden;
+	font-size: 15px;
+}
+.submenuholder .hide
+{
+}
+.submenuholder:hover
+{
+	display: block;
+}
+.submenuholder2
+{
+	opacity: 0;
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	background:url("/images/dark_mosaic.png");
+	-webkit-transition:all .75s;
+	-webkit-transition-delay: .1s;
+	-moz-transition:all .75s;
+	-moz-transition-delay: .1s;
+	left:103.5%;
+	bottom:-2px;
+	overflow: hidden;
+	padding-bottom: 2px;
+	z-index: 2;
+	font-size: 15px;
+}
+.submenuholder2 .hide
+{
+}
+.submenuholder2:hover
+{
+	display: block;
+}
+.menuitem:hover .submenuholder
+{
+	opacity: 1;
+	display: block;
+	width: 225px;
+	height: auto;
+}
+.menuitem:hover .submenuholder2
+{
+	opacity: 1;
+	display: block;
+	width: 225px;
+	height: auto;
+}
+
+.menuitem:hover .submenuholder>div
+{
+	display: block;
+
+}
+.menuitem:hover .submenuholder2>div
+{
+	display: block;
+}
+
+.red1
+{
+	position: absolute;
+	width: 0px;
+	background-color:#318f97;
+	top:0px;
+	height:100%;
+	left: 0px;
+	-webkit-transition:all ease-in .75s;
+}
+.red2
+{
+	position: absolute;
+	width: 0px;
+	background-color:#318f97;
+	top:0px;
+	height:100%;
+	right:0px;
+	-webkit-transition:all ease-out .40s;
+	-moz-transition:all ease-out .40s;
+}
+.menuitem:hover .red2
+{
+	width:100%;
+}
+.wcolor
+{
+	position: absolute;
+	width: 0px;
+	background-color:red;
+	top:0px;
+	height:100%;
+	right:0px;
+	-webkit-transition:all ease-out .40s;
+	-moz-transition:all ease-out .40s;
+}
+.menuitem:hover .wcolor
+{
+	width:100%;
+}
+.menuitem p
+{
+	text-align: left;
+	padding-left:8%; 
+
+}
+#workshopscolor>.menupanelist>.menuitem
+{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	/*background-color: #000000;*/
+	-webkit-transition:all 0s;
+	border-right: 7px solid red;
+	-moz-transition:all 0s;
+	color: grey;
+	margin-top: 1px;
+}
+#workshopscolor>.menupanelist>.menuitem
+>.submenuholder>div:hover,#workshopscolor>.menupanelist>.menuitem
+>.submenuholder2>div:hover{
+	color:#ffffff;
+	background-color:red; 
+}
+.text
+{
+	padding-left: 5px;
+	width: 100%;
+	height:100%;
+	/*line-height: 41px;*/
+	margin-left: -3px;
+	position: absolute;
+	/*margin-top:5px;*/ 
+	cursor: pointer;
+	font-size: 15px;
+}
+#barcont
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.bar
+{
+	position: relative;
+	width: 100%;
+	height:0px;
+	background-color: #318f97;
+	margin-top:.1%;
+	-webkit-transition:all ease-in .25s;
+	-moz-transition:all ease-in .25s;
+}
+.menuitem:hover .bar
+{
+	height:1px;
+	-webkit-transition:all ease-in .25s;
+	-moz-transition:all ease-in .25s;
+}
+
+
+.submenuholder>div,.submenuholder2>div{
+	display: none;
+	overflow: hidden;
+	width: 250px;
+	padding-left: 5px;
+	/*width:97.5%;*/
+	height:32px;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 12px;
+	color: grey;
+	cursor: pointer;
+	-webkit-transition:all .5s;
+	font-weight:lighter;
+}
+.submenuholder>div:hover,.submenuholder2>div:hover{
+	color:#ffffff;
+	background-color:#318f97; 
+}
+/*-----------------------------------------------Right bar styles-----------------------------------------------*/
+#ajax-holder-container{
+	width:80%;
+	height:100%;
+	position:relative;
+	background-image: url('../images/compbg.png');
+	background-repeat: repeat;
+	float:right;
+}
+/*-------------------------------*/
+
+
+.menupaneholder
+{
+	height: 100%;
+	width: 14%;
+	position: absolute;
+	-webkit-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	font-family: "Prototype";
+	z-index: 1;
+	text-transform:uppercase;
+}
+.menupaneholder *
+{
+	font-size: 15px;
+}
+.menuholderhide
+{
+	left:-20%;
+}
+.menuholdershow
+{
+	left: 0%;
+}
+.menupanetop
+{
+	position: relative;
+	height: 20%;
+	width: 96%;
+	background: url("/images/dark_mosaic.png");
+}
+.menupanelist
+{
+	position: relative;
+	left: -7px;
+	height: 80%;
+	width: 100%;
+	background: url("/images/dark_mosaic.png");
+}
+
+.menupaneitem
+{
+	width: 100%;
+	height: 6%;
+	position: relative;
+	/*background-color: #000000;*/
+	-webkit-transition:all 0s;
+	-moz-transition:all 0s;
+	color: grey;
+	margin-top: 1px;
+}
+#workshopscolor
+{
+	background-color: red;
+}
+#lecturescolor
+{
+	background-color: #9f12fc;
+}
+#nitescolor
+{
+	background-color: #0f5a85;
+}
+#highlightscolor
+{
+	background-color: #fc9712;
+}
+#exhibitionscolor
+{
+	background-color: #fc1273;
+}
+#top p,.menupanetop p
+{
+	vertical-align: middle;
+	text-align: center;
+	 color: white;
+	 padding-top:20%;
+	 font-size: 25px;
+}

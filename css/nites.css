@@ -1,0 +1,161 @@
+@font-face{
+font-family: 'Istok Web';
+src: url('../fonts/IstokWeb-Regular.ttf');
+}
+.nites-wrap{
+	position:absolute;
+	top:5%;
+	right:2%;
+	width: 76%;
+	height:450px;
+}
+.kwicks {
+				height: 450px;
+				width: 100%;
+
+			}
+			.kwicks > li {
+				height: 450px;
+			}
+			.black-white{
+				width:300px;
+				height:450px;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				background-color: #000000;
+				color: #ffffff;
+				opacity:0;
+				-webkit-transition:all 1s;
+				font-family: 'Istok Web';
+				font-size: 13px;
+				margin: 0px;
+				padding:10px;
+			}
+
+			#panel-1 
+			{ /*background-color: #000000;*/
+			 	background-image:url('/images/tabsnites/krish.jpg');
+			  opacity:0.8;
+			  color: #ffffff;
+			  /*position: relative;*/
+			   }
+			 #panel-1:hover{
+			 	opacity:1;
+			 }
+			 #panel-1:hover .black-white{
+			 	opacity:0.8;
+			 }
+			 #panel-1:hover .left{
+			 	opacity:0;
+			 }
+			 #panel-2 
+			{ background-image:url('/images/tabsnites/rita2.jpg');
+			  opacity:0.8;
+			   }
+			#panel-2:hover{
+			 	opacity:1;
+			 }
+			 #panel-2:hover .black-white{
+			 	opacity:0.8;
+			 }
+			 #panel-2:hover .left{
+			 	opacity:0;
+			 }
+			   #panel-3
+			{ background-image:url('/images/tabsnites/atfc2.jpg');
+			  opacity:0.8;
+			   }
+			   #panel-3:hover{
+			 	opacity:1;
+			 }
+			 #panel-3:hover .black-white{
+			 	opacity:0.8;
+			 }
+			 #panel-3:hover .left{
+			 	opacity:0;
+			 }
+			   #panel-4 
+			{ background-image:url('/images/tabsnites/Sunburn-logo.jpg');
+			  opacity:0.8;
+			   }
+			   #panel-4:hover{
+			 	opacity:1;
+			 }
+			 #panel-4:hover .black-white{
+			 	opacity:0.8;
+			 }
+			 #panel-4:hover .left{
+			 	opacity:0;
+			 }
+                         #panel-5 
+			{ background-image:url('/images/tabsnites/tdt.jpg');
+			  opacity:0.8;
+			   }
+			   #panel-5:hover{
+			 	opacity:1;
+			 }
+			 #panel-5:hover .black-white{
+			 	opacity:0.8;
+			 }
+			 #panel-5:hover .left{
+			 	opacity:0;
+			 }
+
+/* ---------------------Highlights styles are being added here--------------------- */
+
+			#hpanel-1 
+			{ /*background-color: #000000;*/
+			 	background-image:url('/images/wheels.jpg');
+			  opacity:0.8;
+			  color: #ffffff;
+			  /*position: relative;*/
+			   }
+			 #hpanel-1:hover{
+			 	opacity:1;
+			 }
+			 #hpanel-1:hover .black-white{
+			 	opacity:0.8;
+			 }
+			 #hpanel-1:hover .left{
+			 	opacity:0;
+			 }
+			 #hpanel-2 
+			{ background-image:url('/images/interface.jpg');
+			  opacity:0.8;
+			   }
+			#hpanel-2:hover{
+			 	opacity:1;
+			 }
+			 #hpanel-2:hover .black-white{
+			 	opacity:0.8;
+			 }
+			 #hpanel-2:hover .left{
+			 	opacity:0;
+			 }
+			   #hpanel-3
+			{ background-image:url('/images/industry.jpg');
+			  opacity:0.8;
+			   }
+			   #hpanel-3:hover{
+			 	opacity:1;
+			 }
+			 #hpanel-3:hover .black-white{
+			 	opacity:0.8;
+			 }
+			 #hpanel-3:hover .left{
+			 	opacity:0;
+			 }
+			   #hpanel-4 
+			{ background-image:url('/images/informals.jpg');
+			  opacity:0.8;
+			   }
+			   #hpanel-4:hover{
+			 	opacity:1;
+			 }
+			 #hpanel-4:hover .black-white{
+			 	opacity:0.8;
+			 }
+			 #hpanel-4:hover .left{
+			 	opacity:0;
+			 }

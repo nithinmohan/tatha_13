@@ -1,0 +1,372 @@
+@font-face{
+font-family: 'prototype';
+src: url('../fonts/prototype.ttf');
+}
+/*@font-face{
+font-family: 'hele';
+src: url('../fonts/Gravity.ttf');
+}
+@font-face{
+font-family: 'hele2';
+src: url('../fonts/Neovix.otf');
+}
+
+
+
+li{
+	list-style: none !important;
+}
+
+*/
+.tabs li
+ {
+  list-style:none;
+ }
+*{
+	margin:0px;
+	padding:0px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    /*border-radius: 10px;*/
+}
+ 
+::-webkit-scrollbar-thumb {
+    /*border-radius: 10px;*/
+    background-color: #ffffff;
+}
+/*---------------------------The layout Startts for the pane ----------------------------------------*/
+#pane-back
+{
+	width:650px;
+	height:400px;
+	position: absolute;
+	top:20px;
+	left::20px;
+	background-color: #605f60;
+	text-align: right;
+	font-size: 30px;
+	color: white;
+	padding-right: 10px;
+}
+#pane-front{
+	width:650px;
+	height:400px;
+	position:absolute;
+	top:62px;
+	left:50px;
+	background-color: #f3f3f3;
+	border:1px solid #000000;
+	position: relative;
+	/*background-image: url('../images/box.jpg');
+	background-repeat:no-repeat;
+	background-size: 100% 100%*/
+}
+#pane-left{
+	width:180px;
+	height:400px;
+	float:left;
+	background-color:#686868;
+	opacity:0.8;
+}
+#pane-right{
+	width:450px;
+	height:400px;
+	float:left;
+	background-color: #f3f3f3;
+	list-style: circle;
+}
+
+#pane-menu .tabs{
+	list-style: none;
+}
+/*--------------------------------------------Layout Complete------------------------------------------*/
+
+.cont{
+	width:420px;
+	height:320px;
+	margin:0px;
+	padding:0px 20px 0px 30px;
+	color:#000000;
+	overflow-y:scroll;
+	overflow-x:hidden; 
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size:16px;
+	line-height: 21px;
+}
+.pcontent img{
+	max-width: 400px;
+}
+.empty-space{
+	width:100%;
+	height:30px;
+}
+#pane-menu{
+	width:180px;
+	height:350px;
+	/*list-style: none !important;*/
+}
+.links{
+	width:180px;
+	height:30px;
+	line-height:30px;
+	text-align: left;
+	padding-left:5px;
+	font-size: 10px;
+	color:#000000;
+	position:relative;
+	text-transform: uppercase;
+}
+.links:hover{
+	background-color:#f3f3f3;
+}
+.links a{
+	display:block;
+	text-decoration: none;
+	color:#000000;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 12px;
+}
+.links a:hover{
+	color:#cccccc;
+}
+.links2{
+	width:180px;
+	height:30px;
+	line-height:30px;
+	text-align: left;
+	padding-left:5px;
+	font-size: 12px;
+	color:#000000;
+	position:relative;
+	background-color:#f3f3f3;
+}
+
+
+.bottom-bar{
+	width:500px;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	position: absolute;
+	bottom:0px;
+	left:0px;
+
+}
+#bottom-middle-bar{
+	width:230px;
+	height:28px;
+	line-height: 28px;
+	font-size:15px;
+	margin:0px 0px 2px 0px;
+	margin:0px auto;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+
+}
+/*.contact-footer{
+	width:115px;
+	height:100%;
+	float:left;
+	line-height: 28px;
+	font-size:15px;
+	text-align:center;
+}*/
+.contact-footer2{
+	width: 115px;
+	height:28px;
+	float:left;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 10px;
+	right: 135px;
+	z-index: 9;
+	text-align: center;
+	line-height: 28px;
+	font-size: 12px;
+}
+.contact-footer3{
+	width: 115px;
+	height:28px;
+	float:left;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 10px;
+	right: 250px;
+	z-index: 9;
+	text-align: center;
+	line-height:28px;
+	font-size: 12px;
+	/*border-right:1px solid #000000;*/
+}
+
+.contact-footer4{
+	width: 115px;
+	height:28px;
+	float:left;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	z-index: 9;
+	text-align: center;
+	line-height:28px;
+	font-size: 12px;
+	/*border-right:1px solid #000000;*/
+}
+
+.contact-footer2 a{
+  	display:block;
+	text-decoration:none;
+	color:#000000;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;;
+}
+.contact-footer3 a{
+	display:block;
+	text-decoration: none;
+	color:#000000;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;;
+}
+.contact-footer3 a:hover{
+	background-color: #d7dbde;
+	color:#ffffff;
+}
+
+.contact-footer2:hover{
+	background-color: #d8dfe3;
+	color:#ffffff;
+}
+.contact-footer4 a{
+  	display:block;
+	text-decoration: none;
+	color:#000000;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;;
+}
+.contact-footer4 a:hover{
+	background-color: #d7dbde;
+	color:#ffffff;
+}
+
+.contact-footer4:hover{
+	background-color: #d8dfe3;
+	color:#ffffff;
+}
+
+.contact-footer3:hover{
+	background-color: #d8dfe3;
+	color:#ffffff;
+}
+.contact-footer2 a:hover{
+	background-color: #d8dfe3;
+	color:#ffffff;	
+}
+.soe img{
+	width:10px;
+	height: 17px;
+	padding: 3px 0px 0px 0px;
+}
+.soe{
+	position: absolute;;
+	right:5px;
+	top:4px;
+	opacity:0;
+}
+.links:active .soe{
+	opacity:1;
+}
+.backcolor
+{
+	background-color: #d7dbde;
+}
+.dnone
+ {
+ 	display: none;
+ }
+
+  #cntct1, #cntct2, #cntct3{
+ 	display: none;
+ }
+/*------------------------------------------------------workshop pane-------------------------------------------*/
+ #wcontentpane
+{
+	position: absolute;
+	top:-2%;
+	left: 29%;
+	-webkit-transition:all ease-out 4s;
+}
+
+ #wpane-back
+{
+	width:650px;
+	height:400px;
+	position: absolute;
+	top:20px;
+	left::20px;
+	background-color: #605f60;
+	text-align: right;
+	font-size: 30px;
+	color: white;
+	padding-right: 10px;
+}
+#wpane-front{
+	width:650px;
+	height:400px;
+	position:absolute;
+	top:62px;
+	left:50px;
+	background-color: #f3f3f3;
+	border:1px solid #000000;
+	position: relative;
+	/*background-image: url('../images/box.jpg');
+	background-repeat:no-repeat;
+	background-size: 100% 100%*/
+}
+#wpane-left{
+	width:180px;
+	height:400px;
+	float:left;
+	background-color:#686868;
+	opacity:0.8;
+	
+}
+#wpane-right{
+	width:450px;
+	height:400px;
+	float:left;
+	background-color: #f3f3f3;
+}
+#wpane-menu{
+	width:180px;
+	height:350px;
+}
+#wpane-menu ul li a{
+	color:#bbbbbb;
+}
+#wpane-menu ul li a:hover{
+	color:#000000 !important;
+}
+#wpane-menu ul li a:active{
+	color:#000000;
+}
+#wbottom-middle-bar{
+	width:230px;
+	height:28px;
+	line-height: 28px;
+	font-size:15px;
+	margin:0px 0px 2px 0px;
+	margin:0px auto;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#wplink9, #wplink10
+{
+	color: #000000 !important;
+}

@@ -1,0 +1,74 @@
+<tiltviewergallery>
+	<photos>
+		<!-- <photo imageurl="imgs/img1.jpg" linkurl="" showFlipButton="false">
+			<title>Image 1</title>
+			<description>This is a regular text description.</description>
+		</photo>
+		<photo imageurl="imgs/img2.jpg" linkurl="" showFlipButton="false">
+			<title>Image 2</title>
+			<description><![CDATA[This is a HTML text description. Supported tags are <b>bold</b>, <u>underline</u>, <i>italics</i>, linebreaks<br>and <font color="#ff0000" size="60">font tags</font>. Hyperlinks are not supported.]]></description>
+		</photo>
+		<photo imageurl="imgs/img3.jpg" showFlipButton="false">
+			<title>Image 3</title>
+		<description>This image has no link button becasue the 'linkurl' property was removed from the photo tag</description>			
+		</photo>
+		<photo imageurl="imgs/img4.jpg" linkurl="" showFlipButton="false">
+			<title>Image 4</title>
+			<description>This image has no flip button because the 'showFlipButton' property was added to the photo tag</description>			
+		</photo>
+		<photo imageurl="imgs/img5.jpg" linkurl="" showFlipButton="false">
+			<title>Image 5</title>			
+		</photo>
+		<photo imageurl="imgs/img6.jpg" linkurl="" showFlipButton="false">
+			<title>Image 6</title>			
+		</photo>
+		<photo imageurl="imgs/img7.jpg" linkurl="" showFlipButton="false">
+			<title>Image 7</title>			
+		</photo>
+		<photo imageurl="imgs/img8.jpg" linkurl="" showFlipButton="false">
+			<title>Image 8</title>			
+		</photo>
+		<photo imageurl="imgs/img9.jpg" linkurl="" showFlipButton="false">
+			<title>Image 9</title>			
+		</photo> -->
+		<photo imageurl="imgs/3128.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3129.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3130.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3131.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3132.jpg" linkurl="" showFlipButton="false"></photo>	
+		<photo imageurl="imgs/3133.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3134.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3135.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3136.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3137.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3138.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3139.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3140.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3141.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3142.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3143.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3144.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3145.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3146.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3147.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3148.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3149.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3150.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3151.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3152.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3153.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3154.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3155.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3156.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3157.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3158.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3159.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3160.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3162.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3163.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3164.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3165.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3166.jpg" linkurl="" showFlipButton="false"></photo>
+		<photo imageurl="imgs/3167.jpg" linkurl="" showFlipButton="false"></photo>								
+	</photos>
+</tiltviewergallery>

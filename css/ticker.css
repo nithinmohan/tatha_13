@@ -1,0 +1,64 @@
+#ticker
+	{
+		background:#DEDFD9;
+		border-radius: 5px;
+		width:300px;
+	height:40px;
+	position:absolute;
+	bottom:60px;
+	left:20px;
+	/*opacity: 0.6;*/
+		/*width: 300px;
+		height: 50px;
+		background-color: grey;*/
+	}
+	#ticker div
+	{
+		margin-left: 5px;
+	}
+	#tickercontainer
+	{
+		float: left;
+		position: relative;
+		width: 85%;
+		height: 50px;
+		overflow: hidden;
+	}
+	#fullcontents
+	{
+		width: 20000px;
+	}
+	#fullcontents .contents
+	{
+		position: relative;
+		float: left;
+		width: 250px;
+		height: 100%;
+		opacity: 0;
+		color: black;
+		font-size: 14px;
+		text-align: center;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+	}
+	#tickernext
+	{
+		background: url("/images/arrow.png");
+		background-size: 100% 100%; 
+		position: relative;
+		width: 5%;
+		top:30%;
+		height: 50%;
+		float: left;
+		cursor: pointer;
+	}
+	#tickerprev
+	{
+		background: url("/images/left.png");
+		background-size: 100% 100%; 
+		position: relative;
+		height: 50%;
+		top:30%;
+		width: 5%;
+		float: left;
+		cursor: pointer;
+	}
