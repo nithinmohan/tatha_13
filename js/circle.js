@@ -9,47 +9,47 @@ var minpart=0,maxpart=0;
 
 $('body').css({'height':$(window).height(),'width':$(window).width()});
 var arcpics={
-	1:"/images/yellow.png",
-	2:"/images/green.png",
-	3:"/images/blue.png",
-	4:"/images/indigo.png",
-	5:"/images/violet.png",
-	0:"/images/red.png"
+	1:"images/yellow.png",
+	2:"images/green.png",
+	3:"images/blue.png",
+	4:"images/indigo.png",
+	5:"images/violet.png",
+	0:"images/red.png"
 }
 var menuangles={
 	0:{
 		div:$("#zero"),
-		backimg:"/images/1.png",
+		backimg:"images/1.png",
 		start:0,
 		end:360+-15
 	},
 	1:{
 		div:$("#one"),
-		backimg:"/images/2.png",
+		backimg:"images/2.png",
 		start:60,
 		end:360+9
 	},
 	2:{
 		div:$("#two"),
-		backimg:"/images/3.png",
+		backimg:"images/3.png",
 		start:120,
 		end:360+33
 	},
 	3:{
 		div:$("#three"),
-		backimg:"/images/4.png",
+		backimg:"images/4.png",
 		start:180,
 		end:360+57
 	},
 	4:{
 		div:$("#four"),
-		backimg:"/images/5.png",
+		backimg:"images/5.png",
 		start:240,
 		end:360+81
 	},
 	5:{
 		div:$("#five"),
-		backimg:"/images/6.png",
+		backimg:"images/6.png",
 		start:300,
 		end:360+105
 	},
@@ -58,7 +58,7 @@ var menuangles={
 }
 var obj={
 	container:$("#container"),
-	fullcirurl:"/images/fullcir.png",
+	fullcirurl:"images/fullcir.png",
 	baseangle:60
 };
 var angle=function(x,y)
@@ -176,7 +176,8 @@ $(function(){
 		if((link!=state.data.state)||$(this).hasClass("skewmenus"))
 		{
 			oldlink=link;
-			History.pushState({state:link,rand:Math.random()}, link, "/"+subDir+link);
+			console.log("/"+subDir+link)
+			History.pushState({state:link,rand:Math.random()}, link, "?"+link);
 		}
 	})
 	$("#home").click(function(){
@@ -219,11 +220,12 @@ $lecturescolor=$("#lecturescolor");
 $nitescolor=$("#nitescolor");
 $exhibitionscolor=$("#exhibitionscolor");
 $highlightscolor=$("#highlightscolor");
-subDir="2013/";
+subDir="Users/300035285/Downloads/tathva_13/index.html";
 History.Adapter.bind(window, 'statechange', function() {
 	var State = History.getState(), // Note: We are using History.getState() instead of event.state
 	rootUrl = History.getRootUrl(),
 	relativeUrl = State.url.replace(rootUrl + subDir , '');
+	console.log(relativeUrl, State.url, rootUrl , subDir)
 	if (relativeUrl == '') {
 		$fblike.removeClass("displaynone");
 		$home.addClass("homehide");
@@ -305,7 +307,7 @@ History.Adapter.bind(window, 'statechange', function() {
 			$wcontentpane.removeClass("contentpaneshow");
 			$menuholder.addClass("menuholderhide");
 			$menuholder.removeClass("menuholdershow");
-			if (relativeUrl.split('/')[0] == 'Competitions') { //Events section
+			if (relativeUrl.split('/')[0] == '?Competitions') { //Events section
 				imagechange=false;
 				$menuholder.removeClass("menuholderhide");
 				$menuholder.addClass("menuholdershow");
@@ -407,7 +409,7 @@ History.Adapter.bind(window, 'statechange', function() {
 		});
 				}
 			} //Endif events
-			else if (relativeUrl.split('/')[0] == 'Workshops') {
+			else if (relativeUrl.split('/')[0] == '?Workshops') {
 				imagechange=false;
 				$workshopscolor.removeClass("menuholderhide");
 				$workshopscolor.addClass("menuholdershow");
@@ -501,7 +503,7 @@ History.Adapter.bind(window, 'statechange', function() {
 				}
 			} //Endif ajax
 			//Endif workshops
-			else if (relativeUrl.split('/')[0] == 'Nites') {
+			else if (relativeUrl.split('/')[0] == '?Nites') {
 				//$comingsoon.addClass("soonshow");
 				//$comingsoon.removeClass("soonhide");
 				$nitescolor.removeClass("menuholderhide");
@@ -510,13 +512,13 @@ History.Adapter.bind(window, 'statechange', function() {
 				$nitescontainer.removeClass("displaynone");//Nites
 
 							} //Endif proshows
-			else if (relativeUrl.split('/')[0] == 'Lectures') {
+			else if (relativeUrl.split('/')[0] == '?Lectures') {
 				$lecturescolor.removeClass("menuholderhide");
 				$lecturescolor.addClass("menuholdershow");
 				$leccontainer.addClass("displayblock");
 				$leccontainer.removeClass("displaynone");
 			} //Endif showcase
-			else if (relativeUrl.split('/')[0] == 'Highlights') {
+			else if (relativeUrl.split('/')[0] == '?Highlights') {
 				$highlightscolor.removeClass("menuholderhide");
 				$highlightscolor.addClass("menuholdershow");
 				//$comingsoon.addClass("soonshow");
@@ -524,7 +526,7 @@ History.Adapter.bind(window, 'statechange', function() {
                                 $highcontainer.addClass("displayblock");//Highlights
 				$highcontainer.removeClass("displaynone");//highlights
 			} //Endif sponsors
-			else if (relativeUrl.split('/')[0] == 'Exhibitions') {
+			else if (relativeUrl.split('/')[0] == '?Exhibitions') {
 				//$comingsoon.addClass("soonshow");
 				//$comingsoon.removeClass("soonhide");
 				$exhibitionscolor.removeClass("menuholderhide");
